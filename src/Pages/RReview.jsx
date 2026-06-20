@@ -1,6 +1,7 @@
 import { ArrowLeft, ShoppingBagIcon } from "lucide-react";
 import LanguageSelector from "../components/LanguageSelector";
 import { Link } from "react-router-dom";
+import logo from "../assets/Home/logo.png";
 
 export default function RReview() {
     return (
@@ -9,7 +10,7 @@ export default function RReview() {
             <header className="flex items-center justify-between px-8 py-5 shadow-sm">
                 <Link to="/">
                     <img
-                        src="/assets/logo.png"
+                        src={logo}
                         alt="Logo"
                         className="h-10 object-contain"
                     />

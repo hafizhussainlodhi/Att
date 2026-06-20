@@ -1,6 +1,12 @@
 import { ShoppingBagIcon } from "lucide-react";
 import LanguageSelector from "../components/LanguageSelector";
 import { Link } from "react-router-dom";
+import logo from "../assets/Home/logo.png";
+import banner from "../assets/Home/1.png";
+import cardOne from "../assets/Home/2.png";
+import carTwo from "../assets/Home/3.png";
+import starthere from "../assets/Home/4.png";
+
 import {
     Zap,
     ShieldCheck,
@@ -16,7 +22,7 @@ export default function Home() {
             <header className="flex items-center justify-between px-4 py-3 border-b border-gray-100 shadow-md shadow-gray-200">
                 <Link to="/">
                     <img
-                        src="/assets/logo.png"
+                        src={logo}
                         alt="Logo"
                         className="h-10 object-contain"
                     />
@@ -32,7 +38,7 @@ export default function Home() {
             <div className="flex-1 overflow-y-auto px-4 py-4">
 
                 <img
-                    src="/assets/hero-banner.png"
+                    src={banner}
                     alt=""
                     className="w-full rounded-xl"
                 />
@@ -40,15 +46,15 @@ export default function Home() {
                 <div className="grid grid-cols-2 gap-3 mt-4">
                     <Link to="/check-compatibility">
                         <img
-                            src="/assets/b-banner-1.png"
+                            src={carTwo}
                             alt=""
                             className="w-full rounded-xl"
-                        />
+                            />
                     </Link>
 
                     <Link to="/recharge">
                         <img
-                            src="/assets/b-banner-2.png"
+                            src={cardOne}
                             alt=""
                             className="w-full rounded-xl"
                         />
@@ -58,7 +64,7 @@ export default function Home() {
                 <div className="mt-4">
                     <Link to="/start-screen">
                         <img
-                            src="/assets/b-banner-3.png"
+                            src={starthere}
                             alt=""
                             className="w-full rounded-xl"
                         />

@@ -1,6 +1,7 @@
 import { ArrowLeft, ShoppingBagIcon } from "lucide-react";
 import LanguageSelector from "../components/LanguageSelector";
 import { Link } from "react-router-dom";
+import logo from "../assets/Home/logo.png";
 
 export default function Info() {
     return (
@@ -10,7 +11,7 @@ export default function Info() {
             <div className="w-full flex items-center justify-between px-4 border-b border-gray-100 shadow-md shadow-gray-200 py-3 shrink-0">
                 <Link to="/">
                     <img
-                        src="/assets/logo.png"
+                        src={logo}
                         alt="Logo"
                         className="h-10 object-contain"
                     />

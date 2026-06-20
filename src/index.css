@@ -1,36 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
 
-
 @layer base {
   body {
     font-family: "Poppins", sans-serif;
   }
 }
 
-
 #header {
   min-height: 90px;
 }
 
 :root {
-  --primary-color: #E00171;
+  /* Maine yahan pink ki jagah Naya Blue (#00BFFF) lagaya hai */
+  --primary-color: #00BFFF; 
   --secondary-color: #000000;
   --text-color: #272727;
 }
-
-
-/* @layer components {
-  .global-btn {
-    padding: 16px 32px;
-    border-radius: 999px;
-    border: 1px solid #BEBEBE;
-    background: #FEFEFF;
-    color: #272727;
-    transition: all 0.3s;
-  }
-} */
-
 
 html, body {
   margin: 0;
@@ -38,10 +24,7 @@ html, body {
   overflow-x: hidden;
 }
 
-
-
-
-/* Chrome, Edge, Safari */
+/* Chrome, Edge, Safari ke liye Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -52,17 +35,16 @@ html, body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #E00171;
-  /* pink */
+  background: #00BFFF; /* Naya Blue color */
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #E00171;
+  background: #0096CC; /* Hover karne par thoda dark blue */
 }
 
-/* Firefox */
+/* Firefox ke liye Scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #E00171 #f3f4f6;
+  scrollbar-color: #00BFFF #f3f4f6; /* Naya Blue color aur track color */
 }
