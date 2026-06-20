@@ -54,7 +54,7 @@ export default function StartS() {
             <img
                 src={girl}
                 alt=""
-                className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[280px] z-10 object-cover pointer-events-none"
+                className="absolute bottom-0 left-[600px]  w-[280px] z-10 object-cover pointer-events-none"
             />
         </main>
     );
