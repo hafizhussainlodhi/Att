@@ -9,7 +9,7 @@ const menuItems = [
     { label: "MOBILE TOP-UP", path: "/recharge" },
 ];
 
-export default function StartS() {
+export default function Test() {
 
     return (
 
@@ -66,10 +66,10 @@ export default function StartS() {
                     </p>
                 </div>
 
-                <div className="mt-12 w-full max-w-75 mx-auto flex flex-col gap-3">
+                <div className="mt-12 w-full max-w-[300px] mx-auto flex flex-col gap-3">
                     {menuItems.map((item) => (
                         <Link key={item.label} to={item.path}>
-                            <button className="w-full h-10 rounded-full bg-(--primary-color) hover:bg-black duration-300 text-white text-xs font-bold flex items-center justify-between px-5">
+                            <button className="w-full h-10 rounded-full bg-[var(--primary-color)] hover:bg-black duration-300 text-white text-xs font-bold flex items-center justify-between px-5">
                                 {item.label}
                                 <span className="text-lg">→</span>
                             </button>

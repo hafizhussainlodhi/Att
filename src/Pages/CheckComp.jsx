@@ -56,7 +56,7 @@ export default function CheckComp() {
             </section>
 
             {/* Bottom Section with Back and Skip Buttons */}
-            <div className="w-full max-w-[300px] mb-8 z-10">
+            <div className="w-full max-w-75 mb-8 z-10">
                 <div className="grid grid-cols-2 gap-3">
                     <button
                         onClick={() => window.history.back()}
@@ -74,8 +74,11 @@ export default function CheckComp() {
                 </div>
             </div>
 
-            {/* Bottom Background Image */}
-            <img src={bottom} alt="" className="absolute bottom-0 w-[420px] z-0 pointer-events-none" />
+            <img
+                src="/assets/bottom.png"
+                alt=""
+                className="absolute bottom-0 right-0 pointer-events-none"
+            />
 
             {/* Success Popup */}
             {modalStep === 'success' && (

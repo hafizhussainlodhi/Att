@@ -21,6 +21,7 @@ import Recharge from "./Pages/Recharge";
 import AddInfo from "./Pages/AddInfo";
 import RTerm from "./Pages/RTerm";
 import RReview from "./Pages/RReview";
+import Test from "./Pages/Test";
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
                             <Route path="/add-information" element={<AddInfo />} />
                             <Route path="/r-term" element={<RTerm />} />
                             <Route path="/r-review" element={<RReview />} />
+                            <Route path="/test" element={<Test />} />
 
                             
                         </Route>
