@@ -10,7 +10,7 @@ export default function CheckComp() {
 
     return (
         <main className="max-w-xl mx-auto h-dvh w-full relative overflow-hidden bg-white flex flex-col items-center">
-            
+
             {/* Header */}
             <div className="w-full flex items-center justify-between px-4 border-b border-gray-100 shadow-md shadow-gray-200 py-3 z-20">
                 <Link to="/">
@@ -24,8 +24,8 @@ export default function CheckComp() {
 
             {/* Content */}
             <section className="flex-1 flex flex-col items-center text-center px-6 z-10 w-full overflow-y-auto pt-6">
-                <h1 className="text-2xl font-semibold text-gray-800">Activation Flow</h1>
-                
+                <h1 className="text-2xl font-semibold text-gray-800"></h1>
+
                 <div className="mt-8">
                     <p className="text-xl text-gray-600">Let's Check</p>
                     <h2 className="text-2xl font-semibold leading-tight text-[#00BFFF]">Your Device Compatibility</h2>
@@ -39,12 +39,12 @@ export default function CheckComp() {
 
                 {/* Input and Button Section */}
                 <div className="mt-6 mb-6 w-full max-w-[300px] rounded-2xl bg-[#F0F7FF] border border-blue-100 p-6 shadow-sm">
-                   <p className="text-[20px] font-bold text-gray-800 uppercase tracking-widest mb-3">CHECK YOUR DEVICE COMPATIBILITY</p>
-                    <input 
-                        type="text" 
+                    <p className="text-[20px] font-bold text-gray-800 uppercase tracking-widest mb-3">CHECK YOUR DEVICE COMPATIBILITY</p>
+                    <input
+                        type="text"
                         defaultValue="21902459038459032948"
                         readOnly
-                        className="w-full bg-white border border-gray-300 rounded-full px-4 py-3 text-[12px] text-center mb-4 focus:outline-none cursor-default" 
+                        className="w-full bg-white border border-gray-300 rounded-full px-4 py-3 text-[12px] text-center mb-4 focus:outline-none cursor-default"
                     />
                     <button
                         onClick={() => setModalStep('success')}

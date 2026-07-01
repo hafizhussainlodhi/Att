@@ -55,7 +55,7 @@ export default function RReview() {
                                 <div className="flex justify-between items-start">
                                     <div>
                                         <h3 className="text-xs font-bold">
-                                            T-Mobile $35 (Data Only)
+                                            AT&T $35 (Data Only)
                                         </h3>
                                         <p className="text-[10px] text-gray-500">standard</p>
                                         <p className="text-[10px] font-bold">15GB DATA ONLY</p>

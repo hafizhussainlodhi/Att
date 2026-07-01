@@ -48,7 +48,7 @@ export default function Review() {
 
                         <div className="flex justify-between mt-5 text-sm">
                             <span className="text-gray-500">YOUR PLAN</span>
-                            <span className="font-bold">T-Mobile $35</span>
+                            <span className="font-bold">AT&T $35</span>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ export default function Review() {
                                 <div className="flex justify-between items-start">
                                     <div>
                                         <h3 className="text-xs font-bold">
-                                            T-Mobile $35 (Data Only)
+                                            AT&T $35 (Data Only)
                                         </h3>
                                         <p className="text-[10px] text-gray-500">standard</p>
                                         <p className="text-[10px] font-bold">15GB DATA ONLY</p>

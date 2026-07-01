@@ -48,7 +48,7 @@ export default function Plan() {
 
             <section className="flex-1 flex flex-col px-6 min-h-0">
                 <h1 className="mt-14 text-2xl font-semibold text-center">
-                    Activation Flow
+
                 </h1>
 
                 <div className="text-center mt-2">
@@ -162,7 +162,7 @@ export default function Plan() {
 
                             <ul className="mt-3 text-left text-sm list-disc pl-5">
                                 <li>30GB/mo. at max 3 Mbps, then speeds slowed to max 1.5 Mbps.</li>
-                                <li>T-Mobile Level Up<sup>SM</sup></li>
+                                <li>AT&T Level Up<sup>SM</sup></li>
                             </ul>
 
                             <button className="mt-2 text-left block text-xs font-bold text-blue-600 underline">
